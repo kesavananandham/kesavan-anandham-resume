@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "kesavan-anandham-resume",
+      "public": "dist/kesavan-anandham-resume",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
